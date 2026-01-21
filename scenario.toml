@@ -1,16 +1,21 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
-
-[[participants]]
-agentbeats_id = ""
-name = "role_1_name"
+agentbeats_id = "019bbdd8-c5a5-77e3-b0ea-f0852690448c"
 env = {}
 
 [[participants]]
 agentbeats_id = ""
-name = "role_2_name"
+name = "assistant"
 env = {}
 
 [config]
 # Add your assessment config here
+run_gaia = true
+evaluation_level = "all"
+gaia_split = "validation"
+
+run_docvqa = true
+docvqa_num_samples = 100
+docvqa_seed = 0
+
+run_sealqa = true
+sealqa_subset = "seal_0"
