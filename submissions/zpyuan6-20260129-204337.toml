@@ -1,0 +1,21 @@
+[green_agent]
+agentbeats_id = "019bbdd8-c5a5-77e3-b0ea-f0852690448c"
+env = {}
+
+[[participants]]
+agentbeats_id = "019c0b04-d276-7cf2-8af8-cb376f20707c"
+name = "assistant"
+env = {}
+
+[config]
+# Add your assessment config here
+run_gaia = true
+evaluation_level = "all"
+gaia_split = "validation"
+
+run_docvqa = true
+docvqa_num_samples = 100
+docvqa_seed = 0
+
+run_sealqa = true
+sealqa_subset = "seal_0"
