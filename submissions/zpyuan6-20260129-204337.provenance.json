@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/zpyuan6/tutorial-gaia_extension@sha256:68bcd7188df97a1cc7e7cf11b8bb184cda3dec6791536ef1ee333dda002c705e",
+    "assistant": "ghcr.io/zpyuan6/tutorial-gaia_agent@sha256:ace4b9f1213f864acd8faf510fbc98beeae6332f4eac0c952b197fa44a5b35c3",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-29T20:43:37Z",
+  "github_actions": {
+    "run_url": "https://github.com/zpyuan6/agentbeats-GAIA-Extension-leaderboard/actions/runs/21491663971",
+    "run_logs_url": "https://api.github.com/repos/zpyuan6/agentbeats-GAIA-Extension-leaderboard/actions/runs/21491663971/logs",
+    "ref": "refs/heads/gemini-2.5-flash-gaia-test",
+    "sha": "9963715a83da6c731cb8ce8df83eb2d87345b753",
+    "repository_url": "https://github.com/zpyuan6/agentbeats-GAIA-Extension-leaderboard",
+    "workflow_ref": "zpyuan6/agentbeats-GAIA-Extension-leaderboard/.github/workflows/run-scenario.yml@refs/heads/gemini-2.5-flash-gaia-test",
+    "workflow_sha": "9963715a83da6c731cb8ce8df83eb2d87345b753"
+  }
+}
